@@ -108,3 +108,23 @@ body {
     width: 20vh;
     overflow: hidden;
 }
+
+#dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-dots {
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.dot-active {
+    background-color: black;
+}

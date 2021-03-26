@@ -1,0 +1,11 @@
+    if (dotOne.classList.contains("dot-active")){
+      dotOne.classList.remove("dot-active");
+      dotTwo.classList.add("dot-active"); 
+    } else if (dotTwo.classList.contains("dot-active")){
+        dotTwo.classList.remove("dot-active");
+        dotThree.classList.add("dot-active"); 
+    } else {
+        dotThree.classList.remove("dot-active")
+        dotOne.classList.add("dot-active"); 
+
+    }
